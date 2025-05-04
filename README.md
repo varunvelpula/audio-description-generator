@@ -1,2 +1,1 @@
-# audio-description-generator
-Audio generation for sports broadcast using Llama 4 model
+test_1: 0.5Hz

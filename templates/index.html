@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Description Generator using Meta Llama 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .upload-form {
+            margin: 40px auto;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .upload-form:hover {
+            border-color: #666;
+        }
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Description Generator using Meta Llama 4</h1>
+    <div class="upload-form">
+        <form method="POST" enctype="multipart/form-data">
+            <h2>Upload your video file to generate audio description</h2>
+            <input type="file" name="video" accept="video/*" required>
+            <br>
+            <button type="submit" class="submit-btn">Upload and Process</button>
+        </form>
+    </div>
+</body>
+</html> 
